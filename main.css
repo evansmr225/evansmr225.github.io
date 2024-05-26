@@ -1,0 +1,112 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    text-align: center;
+}
+
+p, figcaption{
+    font-size: 2rem;
+}
+
+.introText
+{
+    margin: 2em;
+}
+
+#breathOfTheWild, #zelda1, #ocarinaOfTime{
+    max-width: 50%;
+    height: 20em;
+    margin: 2em auto;
+    border-radius: 25px;
+    background: lightblue;
+    .zeldatitle
+    {
+        display: block;
+        text-align: center;
+        margin: 1em auto;
+        
+        a{
+            color: black;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: yellow;
+        }
+    }
+    img
+    {
+        display: block;
+        max-width: 15em;
+        max-height: 15em;
+        margin: auto;
+    }
+}
+
+#inventory
+{
+    display: block;
+    float: right;
+    padding: 2em;
+    overflow: hidden;
+
+    #candle
+    {
+        display: inline;
+        padding-right: 2em;
+        img
+        {
+            max-width: 75px;
+            max-height: 75px;
+        }
+    }
+    
+    #keycounter
+    {
+        display: inline;
+        padding-right: 2em;
+        img
+        {
+            max-width: 75px;
+            max-height: 75px;
+        }
+        p{
+            display: inline;
+            position: relative;
+            bottom: 20px;
+        }
+
+    }
+
+    #rupeecounter
+    {
+        display: inline;
+        p{
+            display: inline;
+            position: relative;
+            bottom: 20px;
+        }
+    }
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bush
+{
+    overflow:hidden;
+    display: block;
+    text-align: center;
+    img{
+        width: 61px;
+        height: 61px;
+    }
+}
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Zelda</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Zelda Throughout the Ages</h1>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="zelda1.html">The Legend of Zelda</a></li>
+                <li><a href="ocarina of time.html">The Legend of Zelda Ocarina of Time</a></li>
+                <li><a href="botw.html">The Legend of Zelda Breath of the Wild</a></li>
+            </ul>
+        </nav>
+
+        <style>
+            .navbar ul{
+                list-style-type: none;
+                background-color: green;
+                padding: 0px;
+                margin: 0px;
+                overflow: hidden;
+            }
+
+            .navbar a{
+                color: black;
+                text-decoration: none;
+                padding: 15px;
+                display: block;
+                text-align: center;
+            }
+
+            .navbar a:hover{
+                background-color: yellow;
+            }
+
+            .navbar li{
+                float: left;
+            }
+        </style>
+        <p class="introText">
+            The Legend of Zelda series, created by Shigeru Miyamoto and Takashi Tezuka, and developed by Nintendo, is one of the most iconic video game franchises. 
+            Since its inception, the series has captivated players with its blend of action, adventure, and puzzle-solving elements. Although the core elements have
+            remained the same, the series has changed significantly throughout its lifespan. Three games in the series mark a turning point for it, and those three
+            games are listed below. Click on the title of each one to learn about them. 
+        </p>
+    </header>
+    <main>
+        <div id="zelda1">
+            <div class="zeldatitle">
+                <a href="zelda1.html">The Legend of Zelda</a>
+            </div>
+            <img src="link1.png" alt="zelda 1 link" class="link image">
+        </div>
+        <div id="ocarinaOfTime">
+            <div class="zeldatitle">
+                <a href="ocarina of time.html">The Legend of Zelda Ocarina of Time</a>
+            </div>
+            <img src="ocarina of time adult link.png" alt="ocarina of time adult link" class="link image">
+        </div>
+        <div id="breathOfTheWild">
+            <div class="zeldatitle">
+                <a href="botw.html"> The Legend of Zelda Breath of the Wild</a>
+            </div>
+            <img src="BotW_Link_Artwork.png" alt="breath of the wild link" class="linkImage">
+        </div>
+            
+        </div>
+    </main>
+    <div id="bush">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img id="specialbush" src="bush.png" alt="bush" data-new-image="stairs.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+        <img class="bushimg" src="bush.png" alt="bush" data-new-image="Empty.png">
+    </div>
+    <div>
+        <ul id="inventory">
+            <li id="candle">
+                <img id="candleimg" src="blue candle.png" alt="">
+            </li>
+            <li id="keycounter">
+                <img src="boss key.webp" alt="big key count">
+                <p id="keytext">: 0</p>
+            </li>
+            <li id="rupeecounter">
+                <img src="rupee.png" alt="rupee count">
+                <p id="rupeetext">: 0</p>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>

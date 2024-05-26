@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Zelda</title>
+    <link rel="stylesheet" href="zelda1.css">
+</head>
+<body>
+    <h1>Zelda Throughout the Ages</h1>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="zelda1.html">The Legend of Zelda</a></li>
+            <li><a href="ocarina of time.html">The Legend of Zelda Ocarina of Time</a></li>
+            <li><a href="botw.html">The Legend of Zelda Breath of the Wild</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        .navbar ul{
+            list-style-type: none;
+            background-color: green;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        .navbar a{
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        .navbar a:hover{
+            background-color: yellow;
+        }
+
+        .navbar li{
+            float: left;
+        }
+    </style>
+    
+    <header>
+        <img src="the legend of zelda logo.jpg" alt="zelda1 logo">
+        <p>
+            The Legend of Zelda, released February 21 1986 in Japan on the Famicom Disk System, revolutionized the action rpg genre. Its creator 
+            Shigeru Miyamoto wanted to create a fantasy world which players could explore freely. He based it off his childhood exploring
+            the Japenese countryside. 
+        </p>
+    </header>
+    <div>
+        <h1>
+            Controls
+        </h1>
+        <p>
+            The role playing games popular at the time of Zelda's release were based on table top games. They included complicated stat based rules and turn based combat
+            system. Zelda on the other hand was an action role playing game. Instead of turn based combat, the player simply presses a button to use their sword. The sword
+            is an item just like any other item in the game and all items can be assigned to a button. In some ways this system is more immersive than the other popular
+            systems at the time because the player has a direct connection with their character. 
+        </p>
+        
+    </div>
+    <div>
+        <h1>
+            Exploration
+        </h1>
+        <p>
+            Unlike Mario which only allowed players to move right through an obstacle course, Zelda begins by giving players a choice on where to go. They can 
+            go in four directions: north, east, west, or inside the cave. Even though the correct solution is to go into the cave to get the sword, Zelda
+            immediatly communicates to the player that the game is about exploration and will not stop them from making the wrong decisions. 
+            Even though the game is criticized today for its cryptic elements, at the time it was accessible compared to other rpgs of the era. Contrary
+            to popular belief players do not have to bomb every wall and burn every bush to progress in Zelda. Yes, some helpful items are restricted to 
+            cryptic secrets, but the path toward progression is communicated intuitively to the player like with the bush in the middle of the path that 
+            must be burned to enter the eighth dungeon.
+        </p>
+        <figure>
+            <img id="shop" src="opening of zelda1.png" alt="opening of zelda 1">
+            <figcaption>The opening of The Legend of Zelda</figcaption>
+        </figure>
+    </div>
+    <div>
+        <h1>
+            Progression
+        </h1>
+        <p>
+            The core gameplay loop consists of the player finding the 8 dungeons and collecting the 8 pieces of the triforce to unlock the final dungeon to
+            defeat Ganon. They get stronger by collecting new items or finding heart containers to increase their health. Within each dungeon is a new item which
+            may or may not be required for progression. Even though players having the ability to explore freely enables them to do dungeons out of order, there
+            is an inteneded order to the dungeons and some dungeons cannot be entered without a specific item. This ensures a satisfying difficulty curve 
+            and progression in which players get stronger both by increasing their skills at the game and by collecting new items. The player can also collect 
+            rupees (the game's currency) to buy items from the shop and some items like the candle and upgraded shield have to be bought from the shop.
+        </p>
+        <figure>
+            <img src="zelda1shop.png" usemap="#shopmap" alt="old man from zelda 1">
+            <map name="shopmap">
+                <area id="shopCandle" shape="rect" coords="722,411,597,246" alt="candle">
+            </map>
+            <figcaption>A shop from The Legend of Zelda</figcaption>
+        </figure>
+    </div>
+
+    <ul id="inventory">
+        <li id="candle">
+            <img id="candleimg" src="blue candle.png" alt="">
+        </li>
+        <li id="keycounter">
+            <img src="boss key.webp" alt="big key count">
+            <p id="keytext">: 0</p>
+        </li>
+        <li id="rupeecounter">
+            <img src="rupee.png" alt="rupee count">
+            <p id="rupeetext">: 0</p>
+        </li>
+    </ul>
+    
+    <script src="zelda1.js"></script>
+</body>

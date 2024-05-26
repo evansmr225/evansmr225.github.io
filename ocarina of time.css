@@ -1,0 +1,78 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p, figcaption{
+    font-size: 2rem;
+    color: white;
+}
+
+header{
+    img{
+        display: block;
+        margin: 10px auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+.chest{
+    text-align: center;
+    img{
+        display: block;
+        margin: auto;
+        height: 139.5px;
+        width: 186px;
+    }
+}
+
+#inventory
+{
+    display: block;
+    float: right;
+    padding: 2em;
+
+    #candle
+    {
+        display: inline;
+        padding-right: 2em;
+        img
+        {
+            max-width: 75px;
+            max-height: 75px;
+        }
+    }
+    
+    #keycounter
+    {
+        display: inline;
+        padding-right: 2em;
+        img
+        {
+            max-width: 75px;
+            max-height: 75px;
+        }
+        p{
+            display: inline;
+            position: relative;
+            bottom: 20px;
+        }
+
+    }
+
+    #rupeecounter
+    {
+        display: inline;
+        p{
+            display: inline;
+            position: relative;
+            bottom: 20px;
+        }
+    }
+}
+
